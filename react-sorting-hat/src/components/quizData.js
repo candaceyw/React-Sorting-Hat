@@ -1,6 +1,6 @@
 export const quizData = [
     {
-      'question': 'What best describes you?',
+      'question': 'Which best describes you?',
       'answer1': 'Brave',
       'answer2': 'Whitty',
       'answer3': 'Cunning',

@@ -8,13 +8,23 @@ import { quizResults } from './components/quizResults';
 
 
 class App extends Component {
+  constructor(){
+    super();
+      this.state={
+        tallyResults: []
+      }
+  }
+
+  
+
+
   render() {
     return (
       <div className="App">
           <h1 className="App-title">Welcome to Hogwarts</h1>
           <Landing/>
           <Quiz quizData={quizData}/>
-          <Results houseInfo={quizResults}/>
+          <Results quizResults={quizResults}/>
       </div> 
     );
   }
