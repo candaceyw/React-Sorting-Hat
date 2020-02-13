@@ -24,7 +24,7 @@ class App extends Component {
           <h1 className="App-title">Welcome to Hogwarts</h1>
           <Landing/>
           <Quiz quizData={quizData}/>
-          <Results quizResults={quizResults}/>
+          <Results quizResults={quizResults}/> 
       </div> 
     );
   }
